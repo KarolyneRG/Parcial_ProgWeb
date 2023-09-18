@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  justify-content: center;
+  background-image: url("../assets/bread.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.contForm {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 400px;
+  background-color: #c2a792cc;
+  border: none;
+  border-radius: 25px;
+}
+
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loginForm h1 {
+  font-size: 40px;
+  color: #5e4b44;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.loginForm input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid #5e4b44;
+  border-radius: 20px;
+  outline: none;
+  color: #5e4b44;
+  font-size: 18px;
+}
